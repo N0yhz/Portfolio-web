@@ -3,64 +3,79 @@
   <head>
     <title>N0yhz</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="static/style.css" rel="stylesheet">
     <link 
       rel="stylesheet" 
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
       crossorigin="anonymous" 
-    />
-  </head>
+    />  
+  </head>  
   <body>
-    <!-- HEADER / NAVBAR -->
-    <section class="header-section">
+    <!-- NAVBAR -->
+    <nav class="navbar">
       <div class="logo">
         <h1> Noyhz</h1>
       </div>
-        <div class="navbar">
-          <ul class="nav__links">
-            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-            <li><a href="#">Interest</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#social-contacts">Contacts</a></li>
-          </ul>
-          <div class="toggle_btn">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-        </div>
-        <div class="dropdown_menu">
-          <ul class="drop_bar">
-            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-              <li><a href="#">Interest</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#social-contacts">Contacts</a></li>
-          </ul>
+      <ul class="nav__links">
+        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#">Interest</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#social-contacts">Contacts</a></li>
+      </ul>
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <div class="dropdown_menu">
+      <ul class="drop_bar">
+        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+          <li><a href="#">Interest</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#social-contacts">Contacts</a></li>
+      </ul>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+        <!-- HEAD TITLE-->
+        <div class="header-content">
+          <h1 id="Title"> N0yhz</h1>
+          <span id="subtitle"></span>
         </div>
         <div class="down_arrow" href="#social-contacts">
           <span></span>
         </div>
-          <!-- HEAD TITLE-->
-        <div class="head-title">
-          <h2 id="Title"> N0yhz</h2>
-          <span id="subtitle"></span>
-        </div>
-    </section>
-    <!-- JS SCRIPT-->
-    <script src="/scripts.js"></script>
+    </header>
 
-    <div >
-      <section id="section-2" class="two">
-        <h3>About Me</h3>
-      </section>
-      <section class="four">
-        <h3>Contact Me</h3>
-      </section>
-      <section class="five">
-        <h3>Interest</h3>
-      </section>
-    </div>
+    <main>
+      <div>
+        <section>
+          <div class="container">
+            <h2> Welcome to my page!</h2>
+            <br>
+            <div class="general-content">
+              <p>
+                My name is Zyonh Vu (feel free to call me Dima).
+              </p>
+              <br>
+              <br>
+              <p>
+                Currently, I am:
+              </p>
+              <ul class="content-points">
+                <li>Working on this website</li>
+                <li>Improvign my coding skills</li>
+                <li>Learning new frameworks</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+      <!-- FOOTER -->
       <!-- SOCIAL ICONS -->
     <footer id="social-contacts">
       <div class="social-containers">
@@ -95,6 +110,12 @@
           </svg>
         </a>
       </div>
+      <div class="cpright">
+        <span>&copy; 2024 N0yhz. All rights reserved.</span>
+      </div>
     </footer>
+    
+    <!-- JS SCRIPT-->
+    <script src="/scripts.js"></script>
   </body>
 </html>

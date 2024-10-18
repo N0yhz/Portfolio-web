@@ -12,7 +12,7 @@ toggleBtn.onclick = function() {
     :'fa-solid fa-bars'
 }
 
-// TYPEWRITER
+// TYPEWRITER WITH LOOP
 
 // function typeWriter(text, index) {
 //     if (index < text.length) {
@@ -31,7 +31,9 @@ toggleBtn.onclick = function() {
 // let text = "Software developer";
 // typeWriter(text, 0);
 
-let words = ["Software developer", "Tech enthusiast", "Web designer"];
+
+// TYPEWRITER WITH TEXT CHANGING
+let words = ["Software developer", "Web designer", "Tech enthusiast", "Gymer"];
 let wordIndex = 0;
 let isDeleting = false;
 let text = "";
@@ -64,7 +66,6 @@ function typeWriter() {
         wordIndex = (wordIndex + 1) % words.length; // Loop through words
         nextAction = 500;
     }
-
     setTimeout(typeWriter, nextAction);
 }
 typeWriter();
