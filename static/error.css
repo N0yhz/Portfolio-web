@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,800");
+@import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One");
+@import url("https://fonts.googleapis.com/css?family=Paytone+One");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi");
+@import url("https://fonts.googleapis.com/css?family=Krona+One");
+
+* {
+	font-family: "Montserrat";
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-color: rgb(5, 5, 5);
+}
+.text{
+    color: white;
+}
+.error-box {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.error-404,
+.error-text {
+	display: flex;
+	justify-content: center;
+}
+.error-404 {
+	height: 40vh;
+}
+.f404 {
+	display: inline-block;
+	cursor: context-menu;
+	font-family: "Krona One";
+	font-size: 200px;
+	font-size: 28vh;
+	text-align: center;
+	color: #a4eaff;
+	text-shadow: 0 10vh 40px rgb(166, 237, 255);
+	transition: 0.3s;
+}
+.f404:hover,
+.f404:active {
+	margin-top: 3vh;
+	font-size: 175px;
+	font-size: 24.5vh;
+	color: #89daff;
+	text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+#f404-1,
+#f404-2,
+#f404-3 {
+	animation: float 2s infinite ease-in-out alternate;
+}
+#f404-2 {
+	animation-delay: 0.4s;
+}
+#f404-3 {
+	animation-delay: 0.8s;
+}
+
+@keyframes float {
+	100% {
+		transform: translateY(20px);
+	}
+}
